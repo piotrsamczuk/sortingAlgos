@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build",
+  "command": "/usr/bin/g++-11    -g   -o CMakeFiles/sortingAlgos.dir/sortingAlgos.cpp.o -c /home/piotrsamczuk/wsl2Practice/sortingAlgorithms/sortingAlgos.cpp",
+  "file": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/sortingAlgos.cpp"
+},
+
+{
+  "directory": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build",
+  "command": "/usr/bin/g++-11   -isystem ../googletest/googlemock/include -isystem ../googletest/googlemock -isystem ../googletest/googletest/include -isystem ../googletest/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/piotrsamczuk/wsl2Practice/sortingAlgorithms/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/googletest/googlemock/src/gmock_main.cc"
+},
+
+{
+  "directory": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build",
+  "command": "/usr/bin/g++-11   -I../googletest/googlemock/include -I../googletest/googlemock -isystem ../googletest/googletest/include -isystem ../googletest/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/piotrsamczuk/wsl2Practice/sortingAlgorithms/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/googletest/googlemock/src/gmock-all.cc"
+},
+
+{
+  "directory": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build",
+  "command": "/usr/bin/g++-11   -isystem ../googletest/googletest/include -isystem ../googletest/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/piotrsamczuk/wsl2Practice/sortingAlgorithms/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/googletest/googletest/src/gtest_main.cc"
+},
+
+{
+  "directory": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build",
+  "command": "/usr/bin/g++-11   -I../googletest/googletest/include -I../googletest/googletest  -g   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/piotrsamczuk/wsl2Practice/sortingAlgorithms/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/googletest/googletest/src/gtest-all.cc"
+},
+
+{
+  "directory": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build",
+  "command": "/usr/bin/g++-11   -isystem ../googletest/googletest/include -isystem ../googletest/googletest  -g   -o test/CMakeFiles/sortingAlgosTests.dir/sortingAlgosTests.cpp.o -c /home/piotrsamczuk/wsl2Practice/sortingAlgorithms/test/sortingAlgosTests.cpp",
+  "file": "/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/test/sortingAlgosTests.cpp"
+}
+]
