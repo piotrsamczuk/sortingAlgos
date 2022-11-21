@@ -81,3 +81,14 @@
 353	369	1668792741675705223	libsortingAlgos.a	67e715b98fa7501c
 1	1283	1668792742595705224	test/CMakeFiles/sortingAlgosTests.dir/sortingAlgosTests.cpp.o	3a506da2ebbf9218
 1283	1497	1668792742805705224	test/sortingAlgosTests	9e7e1421f64386f2
+1	509	1669044599005144700	build.ninja	1987b9c933899225
+3	507	1669044599525144700	CMakeFiles/sortingAlgos.dir/sortingAlgos.cpp.o	d16cf9653e068393
+508	531	1669044599555144700	libsortingAlgos.a	67e715b98fa7501c
+3	1388	1669044600405144701	test/CMakeFiles/sortingAlgosTests.dir/sortingAlgosTests.cpp.o	3a506da2ebbf9218
+1388	1639	1669044600655144701	test/sortingAlgosTests	9e7e1421f64386f2
+1	1307	1669044654405144708	test/CMakeFiles/sortingAlgosTests.dir/sortingAlgosTests.cpp.o	3a506da2ebbf9218
+1307	1541	1669044654635144708	test/sortingAlgosTests	9e7e1421f64386f2
+1	372	1669045025545144759	CMakeFiles/sortingAlgos.dir/sortingAlgos.cpp.o	d16cf9653e068393
+373	388	1669045025555144759	libsortingAlgos.a	67e715b98fa7501c
+1	1276	1669045026445144759	test/CMakeFiles/sortingAlgosTests.dir/sortingAlgosTests.cpp.o	3a506da2ebbf9218
+1276	1494	1669045026665144759	test/sortingAlgosTests	9e7e1421f64386f2

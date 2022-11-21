@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-g++-11"
+	BuildStamp="20221121-1530-Experimental"
+	Name="DESKTOP-D8KF4EK"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/g++-11"
+	CompilerVersion="11.1.0"
+	OSName="Linux"
+	Hostname="DESKTOP-D8KF4EK"
+	OSRelease="5.10.16.3-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Fri Apr 2 22:23:49 UTC 2021"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="8"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="12727"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3194.01"
+	>
+	<Testing>
+		<StartDateTime>Nov 21 16:31 CET</StartDateTime>
+		<StartTestTime>1669044680</StartTestTime>
+		<TestList>
+			<Test>./test/sortingAlgosTests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>sortingAlgosTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/sortingAlgosTests</FullName>
+			<FullCommandLine>/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build/test/sortingAlgosTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00466166</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build/test/sortingAlgosTests</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVUstOwzAQvOcr9pgc4tJy5lAJxAG1RQmcogiZZLEs+VHZDqh8PXZcVU1IQ9mLbXlmZ2e0RacUVwwk5SrN4MNoCYQsmNZMoEPrzq/WNAsWbm8BTpomqe5OVUNx7HULAWNjs1X/ANtxf5Kkyk9Vw6PQ71REAKpPbrSSqDwYXd7tR+BlxPVNrTbOK60F0/YlaCUVFK9b6Kv+/U3kYYOGYek/PDTW7ukvKKQ3IG32jzkiA5x2VGTJkLg6j2XMnDdADFWtlvwb2821TqY5kC6jpVk5lHt3uF5pDJ/MbdZ+HGs6t0tb4pCavNVfariFl7cPfCJkqOR9Pa/L8uE+xHBkkuQH3W8ATw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 21 16:31 CET</EndDateTime>
+		<EndTestTime>1669044680</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

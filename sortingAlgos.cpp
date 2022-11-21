@@ -48,7 +48,7 @@ void merge(std::vector<int>& vec, int left, int mid, int right)
     }
 }
 
-void myMergeSort(std::vector<int>& vec, int left, int right)
+void myMergeSort(std::vector<int>& vec, int left, int right) //make a version which returns a vector
 {
     if(left >= right)
     {
