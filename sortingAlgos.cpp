@@ -61,6 +61,54 @@ void myMergeSort(std::vector<int>& vec, int left, int right) //make a version wh
     merge(vec, left, mid, right);
 }
 
+std::vector<int> returningMerge(const std::vector<int>& left, const std::vector<int>& right)
+{
+    std::vector<int> result;
+    auto lit = left.begin();
+    auto rit = right.begin();
+    while(lit != left.end() and rit != right.end())
+    {
+        bool leftLess;
+        if(rit == right.end())
+        {
+            leftLess = true;
+        }
+        else if(lit != left.end())
+        {
+            leftLess = *lit < *rit;
+        }
+        result.push_back(leftLess ? *lit++ : *rit++);
+    }
+    while(lit == left.end() and rit != right.end())
+    {
+        result.push_back(*rit++);
+    }
+    while(rit == right.end() and lit != left.end())
+    {
+        result.push_back(*lit++);
+    }
+    return result;
+}
+
+std::vector<int> returningMyMergeSort(std::vector<int> vec)
+{
+    std::vector<int> result;
+    if(vec.size() <= 1)
+    {
+        return vec;
+    }
+    else
+    {
+        int mid = vec.size() / 2;
+        std::vector<int> leftvec(vec.begin(), vec.begin() + mid);
+        std::vector<int> rightvec(vec.begin() + mid, vec.end());
+        auto newleft = returningMyMergeSort(leftvec);
+        auto newright = returningMyMergeSort(rightvec);
+        result = returningMerge(newleft, newright);
+    }
+    return result;
+}
+
 std::vector<int> mergeSortedDataVecs(const std::vector<int>& v1, const std::vector<int>& v2)
 {
     if(v1.empty())
