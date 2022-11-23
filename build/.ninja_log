@@ -38,3 +38,5 @@
 1	359	1669245093040231800	CMakeFiles/sortingAlgos.dir/sortingAlgos.cpp.o	d16cf9653e068393
 360	373	1669245093050231800	libsortingAlgos.a	67e715b98fa7501c
 373	597	1669245093270231801	test/sortingAlgosTests	9e7e1421f64386f2
+1	1533	1669245266660232700	test/CMakeFiles/sortingAlgosTests.dir/sortingAlgosTests.cpp.o	3a506da2ebbf9218
+1533	1763	1669245266890232702	test/sortingAlgosTests	9e7e1421f64386f2

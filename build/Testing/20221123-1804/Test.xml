@@ -24,8 +24,8 @@
 	ProcessorClockFrequency="3194"
 	>
 	<Testing>
-		<StartDateTime>Nov 24 00:11 CET</StartDateTime>
-		<StartTestTime>1669245096</StartTestTime>
+		<StartDateTime>Nov 24 00:14 CET</StartDateTime>
+		<StartTestTime>1669245267</StartTestTime>
 		<TestList>
 			<Test>./test/sortingAlgosTests</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build/test/sortingAlgosTests</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.0199252</Value>
+					<Value>0.016746</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -48,12 +48,12 @@
 					<Value>/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build/test/sortingAlgosTests</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJydU0tPAjEQvu+vmCMcKKCEmxcf8WDUBPREiCnb2dKkD9IHir/ebpeQXYRddC6dZr7H9DGzoLXQHBQVuteHwhoFhAy5MVyiR+frqbP5kJfZRwkneZ4tbg6xhNlea3wNJchVatUGXBBxJdlicIglPEqzorICoN4Ka7RCHcHoB2FzBJ7WVdXuGS3HubE+W8Ds/QVSLOsFErSLC7K5olI+MI531KGL+Cpeny7CQ28EyvXP2/zN5F8WFrdoXcovd2ohdRtSzYwS38huBW+xqMOgN562q6La+N15tVTubE2w+EVETuU99TQd67zib+xB/pKvtT8ReOOp7GdN0qROsuiDLX9/4jabb9aIowrn8cpSO9XjNA/QjT95R0c0Joqi24YQkr2tMW7iCJoCfMzTOJrgN8HDJ3Wxpsw2mjqhcwQRR/UrR2SuAq8jdW0kK9nj0dUEVrs06D/HymkH====</Value>
+					<Value encoding="base64" compression="gzip">eJydU0tPAjEQvu+vmCMcKKwSb158xINRE9ATIaZsZ0uTPkgfKP56u11CdtFl0bl0mvke08fMgtZCc1BU6MEQSmsUEDLmxnCJHp1vps4WY15l7xWcFEW2uD7EEmZ7rfwSKpCr1eoNuCDiSrLF6BBLeJBmRWUNQL0V1miFOoLRj8LmCHzVVFW7J7Qc58b6bAGzt2dIsWwWSNAuLsjmikp5zzjeUocu4ut4eTwLD4MJKDfstvmbyb8sLG7RupSf73SC1G9INTNKfCG7EfyERRMGg3x6WhXVxu+61VK5tzXB4hcRBZV31NN0rG7Fn9iD/Dlfa38i8MZTOczapGmTZNEHW/3+xG03364RRxXO45WldurHaR+gH//rHR3RmCjLfhtCSPa6xriJI2hK8DFP42iC3wQPH9TFmjLbaOqELhBEHNXPApG5GryO1LWRrGLnk4sprHZp0L8BwUJpAw==</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Nov 24 00:11 CET</EndDateTime>
-		<EndTestTime>1669245096</EndTestTime>
+		<EndDateTime>Nov 24 00:14 CET</EndDateTime>
+		<EndTestTime>1669245267</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

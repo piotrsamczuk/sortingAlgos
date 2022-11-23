@@ -1,2 +1,2 @@
-sortingAlgosTests 23 0.011387
+sortingAlgosTests 24 0.0116103
 ---
