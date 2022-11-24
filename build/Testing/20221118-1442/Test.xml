@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Linux-g++-11"
 	BuildStamp="20221118-1442-Experimental"
-	Name="DESKTOP-D8KF4EK"
-	Generator="ctest-3.16.3"
+	Name="DESKTOP-954SNH6"
+	Generator="ctest-3.22.1"
 	CompilerName="/usr/bin/g++-11"
-	CompilerVersion="11.1.0"
+	CompilerVersion="11.3.0"
 	OSName="Linux"
-	Hostname="DESKTOP-D8KF4EK"
-	OSRelease="5.10.16.3-microsoft-standard-WSL2"
-	OSVersion="#1 SMP Fri Apr 2 22:23:49 UTC 2021"
+	Hostname="DESKTOP-954SNH6"
+	OSRelease="5.10.102.1-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Wed Mar 2 00:30:59 UTC 2022"
 	OSPlatform="x86_64"
 	Is64Bits="1"
-	VendorString="AuthenticAMD"
-	VendorID="Advanced Micro Devices"
-	FamilyID="23"
-	ModelID="8"
-	ProcessorCacheSize="512"
-	NumberOfLogicalCPU="12"
-	NumberOfPhysicalCPU="6"
-	TotalVirtualMemory="4096"
-	TotalPhysicalMemory="12727"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="126"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="6009"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3194.1"
+	ProcessorClockFrequency="1497.6"
 	>
 	<Testing>
-		<StartDateTime>Nov 18 18:32 CET</StartDateTime>
-		<StartTestTime>1668792746</StartTestTime>
+		<StartDateTime>Nov 18 20:05 CET</StartDateTime>
+		<StartTestTime>1668798304</StartTestTime>
 		<TestList>
 			<Test>./test/sortingAlgosTests</Test>
 		</TestList>
@@ -33,10 +33,10 @@
 			<Name>sortingAlgosTests</Name>
 			<Path>./test</Path>
 			<FullName>./test/sortingAlgosTests</FullName>
-			<FullCommandLine>/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build/test/sortingAlgosTests</FullCommandLine>
+			<FullCommandLine>/home/piotrsamczuk/sortingAlgos/build/test/sortingAlgosTests</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00444305</Value>
+					<Value>0.00859808</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -45,15 +45,18 @@
 					<Value>Completed</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>/home/piotrsamczuk/wsl2Practice/sortingAlgorithms/build/test/sortingAlgosTests</Value>
+					<Value>/home/piotrsamczuk/sortingAlgos/build/test/sortingAlgosTests</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyVUsFOwzAMvecrfGwPzRh3DpOYOKAx1I5TVaHQmihSEk9JChpfT7JME4NtbO8SR37P9ktcj9YqK8EIZYsS3h0Z4HwiiaTGgD78DL3rJzJFr4nO+561d3t0UO9q3ULi+FwsX8CPKp6ctdUeHTxoehM6E9B+KEfWoI1kDNW4/kWeZt62qCcXYqeZluRXqRdroX55gi26v2luNgt0EpuYiNSM5eN/VChuwPjyijmyAgIFoUt2ufD8/NwJO5BRXzgsLjVyXAPF9DpHWXDc0KnvCyhcNdCnPVyP02sBcVZ+2Cl6e541zfw+vcdOydk3wmLd0w==</Value>
+					<Value encoding="base64" compression="gzip">eJyVUsFOAyEQvfMVc9w9LFjvHppoPJhWs6unzcbgLiIpMA2wGvv1QmmaVlvbvgtD5r2ZNzD1aK2yEgxXtijh3aEB9oFGsKXC4Dw3/WpcMI8uRNpUS/RMIkotgvBhN/SuZzJFr6kW7XvS3mzRQb1pdA2J43OnfAE/qnhS0lZbdHCv8Y3rTBD2Uzm0RthIFqEal7/Ik8xbF931+px6kRbqlzms0f1NU/M9E06KJiYiNePx4RQViiswvrzAR1ZAwMB1Sc4X/u+fOm4HNGolhtm5gxzWQDG5bKIsODzQse8LgrtqwC+7vx7H1wKiV7rfKc72NG2au9v0HhslJT9zl+nV====</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Nov 18 18:32 CET</EndDateTime>
-		<EndTestTime>1668792747</EndTestTime>
+		<EndDateTime>Nov 18 20:05 CET</EndDateTime>
+		<EndTestTime>1668798304</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

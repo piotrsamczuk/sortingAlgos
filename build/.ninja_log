@@ -1,4 +1,5 @@
 # ninja log v5
+<<<<<<< HEAD
 372	385	1669237439310192083	libsortingAlgos.a	67e715b98fa7501c
 1655	1877	1669241253720211876	test/sortingAlgosTests	9e7e1421f64386f2
 1	374	1668792608035705057	CMakeFiles/sortingAlgos.dir/main.cpp.o	fa57b22f05ab71dd
@@ -40,3 +41,19 @@
 373	597	1669245093270231801	test/sortingAlgosTests	9e7e1421f64386f2
 1	1533	1669245266660232700	test/CMakeFiles/sortingAlgosTests.dir/sortingAlgosTests.cpp.o	3a506da2ebbf9218
 1533	1763	1669245266890232702	test/sortingAlgosTests	9e7e1421f64386f2
+=======
+993	1033	1668798296347389503	libsortingAlgos.a	117698377912b8a7
+8184	8545	1668798303857389475	test/sortingAlgosTests	29278e1d4a415b52
+8162	8205	1668798303517389476	lib/libgmock.a	75bfdc3854f90b4a
+8078	8161	1668798303467389476	lib/libgtest.a	aefb724294c46f5
+356	477	1668644168419476011	sortingAlgos	93894f97505130f5
+8162	8183	1668798303497389476	lib/libgtest_main.a	f13443dde7e458db
+4	3600	1668798298907389494	googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o	b12b723b05b3cc20
+3	5364	1668798300667389487	googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o	caf7f1c9b93edbc0
+4	8078	1668798303387389477	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	ba612b3aadeee538
+0	421	1669293756644587305	build.ninja	1987b9c933899225
+3	992	1668798296297389504	CMakeFiles/sortingAlgos.dir/sortingAlgos.cpp.o	ae6c087924b2fafd
+8205	8237	1668798303547389476	lib/libgmock_main.a	e23c55bde57fcd87
+5	2691	1668798297997389497	googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	5d08a5ca58dd1f5d
+5	3058	1668798298367389496	test/CMakeFiles/sortingAlgosTests.dir/sortingAlgosTests.cpp.o	1ccd6002af6c83dc
+>>>>>>> eeadb49 (surface update)
