@@ -1,0 +1,58 @@
+Start testing: Nov 24 14:49 CET
+----------------------------------------------------------
+1/1 Testing: sortingAlgosTests
+1/1 Test: sortingAlgosTests
+Command: "/home/piotrsamczuk/sortingAlgos/build/test/sortingAlgosTests"
+Directory: /home/piotrsamczuk/sortingAlgos/build/test
+"sortingAlgosTests" start time: Nov 24 14:49 CET
+Output:
+----------------------------------------------------------
+Running main() from /home/piotrsamczuk/sortingAlgos/googletest/googletest/src/gtest_main.cc
+[==========] Running 14 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 10 tests from mergeSortTest
+[ RUN      ] mergeSortTest.nonReturningUnsorted
+[       OK ] mergeSortTest.nonReturningUnsorted (1 ms)
+[ RUN      ] mergeSortTest.nonReturningSorted
+[       OK ] mergeSortTest.nonReturningSorted (3 ms)
+[ RUN      ] mergeSortTest.nonReturningReverseSorted
+[       OK ] mergeSortTest.nonReturningReverseSorted (2 ms)
+[ RUN      ] mergeSortTest.nonReturningRandomizedBig
+[       OK ] mergeSortTest.nonReturningRandomizedBig (47 ms)
+[ RUN      ] mergeSortTest.nonReturningEmpty
+[       OK ] mergeSortTest.nonReturningEmpty (3 ms)
+[ RUN      ] mergeSortTest.nonReturningSameData
+[       OK ] mergeSortTest.nonReturningSameData (3 ms)
+[ RUN      ] mergeSortTest.returningSorted
+[       OK ] mergeSortTest.returningSorted (1 ms)
+[ RUN      ] mergeSortTest.returningReverseSorted
+[       OK ] mergeSortTest.returningReverseSorted (3 ms)
+[ RUN      ] mergeSortTest.returningUnsorted
+[       OK ] mergeSortTest.returningUnsorted (5 ms)
+[ RUN      ] mergeSortTest.returningRandomizedBig
+[       OK ] mergeSortTest.returningRandomizedBig (61 ms)
+[----------] 10 tests from mergeSortTest (137 ms total)
+
+[----------] 4 tests from returningMerge
+[ RUN      ] returningMerge.returningSmallData
+[       OK ] returningMerge.returningSmallData (0 ms)
+[ RUN      ] returningMerge.diffSizeSmallSorted
+[       OK ] returningMerge.diffSizeSmallSorted (0 ms)
+[ RUN      ] returningMerge.sameSizeSmallUnsorted
+[       OK ] returningMerge.sameSizeSmallUnsorted (0 ms)
+[ RUN      ] returningMerge.diffSizeSmallUnsorted
+[       OK ] returningMerge.diffSizeSmallUnsorted (0 ms)
+[----------] 4 tests from returningMerge (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 2 test suites ran. (138 ms total)
+[  PASSED  ] 14 tests.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"sortingAlgosTests" end time: Nov 24 14:49 CET
+"sortingAlgosTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 24 14:49 CET
