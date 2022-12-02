@@ -61,6 +61,29 @@ void myMergeSort(std::vector<int>& vec, int left, int right) //make a version wh
     merge(vec, left, mid, right);
 }
 
+std::vector<int>::iterator pivot(std::vector<int>& vec, std::vector<int>::iterator& pivot, std::vector<int>::iterator& endIterator)
+{
+    auto swap = vec.begin();
+    auto it = vec.begin() + 1;
+    std::vector<int>::iterator temp;
+    while(it != endIterator)
+    {
+        if(it < pivot)
+        {
+            swap++;
+            //std::swap<std::vector<int>::iterator>(swap, it);
+            temp = swap;
+            swap = it;
+            it = swap;
+        }
+        it++;
+    }
+    temp = swap;
+    swap = pivot;
+    pivot = temp;
+    return swap;
+}
+
 std::vector<int> returningMerge(const std::vector<int>& left, const std::vector<int>& right)
 {
     std::vector<int> result;

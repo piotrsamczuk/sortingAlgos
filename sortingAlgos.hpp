@@ -18,4 +18,7 @@ void myMergeSort(std::vector<int>& vec, int left, int right);
 std::vector<int> returningMerge(const std::vector<int>& left, const std::vector<int>& right);
 std::vector<int> returningMyMergeSort(std::vector<int> vec);
 
+std::vector<int>::iterator pivot(std::vector<int>& vec, int right);
+void myQuickSort();
+
 #endif /*SORTINGALGOS_HPP*/

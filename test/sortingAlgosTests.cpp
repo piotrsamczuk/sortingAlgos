@@ -50,6 +50,11 @@ class mergeSortTest: public sortTest
 
 };
 
+class quickSortTest: public sortTest
+{
+
+};
+
 
 void intFill(std::vector<int>& src)
 {
@@ -60,19 +65,6 @@ void intFill(std::vector<int>& src)
         i = dist(engine);
     }
 }
-
-// BAD IDEA 
-// TEST_F(nonReturningSortTest, allTests)
-// {
-//     size_t sizeBefore = ascendingEdgeCases.size();
-//     myMergeSort(unsortedEdgeCases, 0, unsortedEdgeCases.size() - 1);
-//     myMergeSort(descendingEdgeCases, 0, descendingEdgeCases.size() - 1);
-//     myMergeSort(randomizedBig, 0, randomizedBig.size() - 1);
-//     ASSERT_EQ(unsortedEdgeCases.size(), sizeBefore);
-//     ASSERT_EQ(descendingEdgeCases.size(), sizeBefore);
-//     ASSERT_EQ(randomizedBig.size(), RANDOMIZEDVECTORSIZE);
-
-// }
 
 TEST_F(mergeSortTest, nonReturningUnsorted)
 {
@@ -224,4 +216,9 @@ TEST_F(mergeSortTest, returningRandomizedBig)
     {
         ASSERT_LE(returned[i], returned[i + 1]);
     }
+}
+
+TEST_F(quickSortTest, basicPivotTest)
+{
+    //pivot(unsortedEdgeCases, unsortedEdgeCases.end());
 }
